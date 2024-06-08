@@ -1,0 +1,30 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 6%;
+  background: rgb(223, 243, 249);
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+.nav-left img {
+  width: 50px;
+  height: 30px;
+}
+.nav-right ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav-right ul li {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(38, 38, 37);
+}
+.nav-right img {
+  width: 20px;
+
+}

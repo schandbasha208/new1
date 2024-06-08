@@ -1,0 +1,85 @@
+.footer {
+
+  margin: 60px auto;
+  width: 100%;
+}
+
+.footer-top {
+  padding: 15px 7%;
+  color: #fff;
+  background: rgb(4, 4, 82);
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  width: 100%;
+}
+
+.address,
+.info,
+.links,
+.subscribe {
+  width: 23%;
+}
+
+.footer-top h2 {
+  font-size: 20px;
+  color: rgb(210, 204, 204);
+  margin-bottom: 10px;
+}
+.footer-top p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.address span {
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.links a {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.subscribe input {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 500;
+  padding: 6px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  outline: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.subscribe button {
+  width: 100%;
+  background: rgb(1, 71, 99);
+  padding: 8px;
+  color: #fff;
+  border: 0;
+  outline: 0;
+}
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}

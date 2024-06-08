@@ -1,0 +1,49 @@
+.track {
+  background-image: url('../../../assets//images/track-bg.jpg');
+  background-size: cover;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 7%;
+  margin: 60px 0px;
+  width: 100%;
+
+}
+.track h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  width: 50%;
+}
+.track p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 50%;
+}
+.input-field {
+  width: 50%;
+
+}
+.input-field input {
+  width: 65%;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px;
+  border: 0;
+  outline: 0;
+
+}
+.input-field button {
+  width: 35%;
+  font-size: 12px;
+  padding: 10px;
+  color: #fff;
+  background: rgb(8, 76, 122);
+  border: 0;
+  outline: 0;
+  text-transform: uppercase;
+}
